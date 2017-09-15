@@ -1,5 +1,6 @@
 /* eslint-disable */
 export const PERSON = {
+  picture:'https://lorempixel.com/200/400',
   name: {
     first: 'John',
     middle: '',

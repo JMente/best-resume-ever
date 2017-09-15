@@ -3,6 +3,7 @@
   <div class="leftCol m_box">
     <div class="shadow"></div>
     <div class="heading" id="myselfpic">
+    <img v-bind:src=person.picture />
     </div>
     <div class="section-headline">
       {{ lang.headings.contact }}
@@ -440,7 +441,6 @@ h4 {
   }
 }
 #myselfpic {
-  background-image:url('../assets/person.jpg');
   color:black;
 }
 #githubIcon {
